@@ -1,0 +1,58 @@
+/* @override http://projects:8888/theme/stylesheets/admin/navigation.css */
+
+/* @override http://projects:8888/theme/stylesheets/admin/navigation.css */
+
+/* @override http://projects:8888/theme/stylesheets/admin/navigation.css */
+
+/* Block Nav */
+
+.block-navigation{
+	
+	
+
+}
+
+.block-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  
+}
+
+.block-navigation ul li {
+  float: left;  
+  margin: 0;
+}
+
+
+
+.block-navigation ul li a:link, 
+.block-navigation ul li a:visited, 
+.block-navigation ul li a:hover, 
+.block-navigation ul li a:active {
+  text-decoration: none;
+}
+
+.block-navigation {
+  font-size: 13px;  
+ 
+}
+
+.block-navigation ul li a {
+  display: block;
+  padding: 0px 15px;
+  line-height: 50px;  
+}
+
+.block-navigation ul li.active a {
+	font-weight: bold;
+}
+
+/* Align */
+.block-navigation .left{
+   float: left;
+}
+
+.block-navigation .right{
+   float: right;
+}

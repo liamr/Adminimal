@@ -1,0 +1,29 @@
+/* pagination */
+
+.pagination {
+	padding: 10px 0;
+}
+
+.pagination a, .pagination span, .pagination em {
+  	background-color: #f4f4f4;
+	  color: #111;
+	  text-align: center;
+	  min-width: 15px;
+	  margin-right: 5px;
+	  padding: 5px;
+	
+}
+
+.pagination em {
+  background: #002134;
+  color: #fff;
+  border: 1px solid #002134;
+}
+
+.pagination em {
+  font-weight: bold;  
+}
+
+.pagination a {
+  text-decoration: none;  
+}

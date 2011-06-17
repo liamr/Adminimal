@@ -1,0 +1,67 @@
+/* @override http://projects:8888/theme/stylesheets/admin/forms.css */
+
+/* @override http://projects:8888/theme/stylesheets/admin/forms.css */
+
+/* forms */
+
+input.checkbox {
+  margin: 0;
+  padding: 0;
+}
+
+.form .group {
+  margin-bottom: 15px;
+}
+
+.form .columns {
+	padding: 0;
+}
+
+.form .columns .left {
+  float: left;
+}
+
+.form .columns .right {
+  float: right;
+}
+
+.form label.label, .form input.text_field, .form textarea.text_area {
+  
+  
+  margin: 0;
+}
+
+.form label.right {
+  text-align: right;
+}
+
+.form input.checkbox, .form input.radio {
+  margin-right: 5px;
+}
+
+.form label.checkbox, .form label.radio {
+  line-height: 1.5em;
+}
+
+.form label.label {
+  display: block;
+  padding-bottom: 2px;  
+  font-weight: bold;
+}
+
+.form div.fieldWithErrors label.label {
+  display: inline;
+}
+
+.form .fieldWithErrors .error {
+  color: red;
+}
+
+/* Width based on columns */
+
+.form input.text_field, .form textarea.text_area {
+	border: none;
+  width: 100%;
+padding-left: 0px;
+padding-right: 0px;
+}

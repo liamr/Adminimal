@@ -1,0 +1,110 @@
+/* @override http://projects:8888/theme/stylesheets/admin/blocks.css */
+
+/* @override http://projects:8888/theme/stylesheets/admin/blocks.css */
+
+/* Main Column Blocks */
+
+#main .block {
+  margin-bottom: 20px;
+
+border-radius: 5px;
+  
+}
+
+.row {
+	
+}
+
+#main .block .content {
+	background-color: #efefef;
+  /*padding: 15px 15px;  */  
+  
+	overflow: auto;
+}
+
+#main .block .pad-tb {
+	padding: 10px 0;
+}
+
+#main .block .pad-sides {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#main .block .pad {
+	padding: 10px;
+}
+
+/* Header */
+/* Contains all styling for header */
+
+.block header {
+	
+	background-color: #e5e5e5;
+	 border-bottom-width: 2px;
+  border-bottom-style: solid;
+  
+  -moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+
+
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+
+}
+
+.block header .block-title h3 {
+	font-size: 18px;
+	line-height: 50px;
+	padding-left: 10px;
+	margin: 0;
+}
+
+/* Footer */
+/* Contains all styling for footer */
+
+.block footer {
+	
+	background-color: #e5e5e5;
+	 border-top-width: 2px;
+  border-top-style: solid;
+  min-height: 15px;
+  -moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+}
+
+.block footer .block-title h3 {
+	font-size: 18px;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0;
+}
+
+.block footer .block-title p {
+	font-size: 12px;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0;
+}
+
+/* Controls */
+.controls {
+	padding: 10px;
+}
+
+.controls .button{
+	
+	margin: 0;
+}
+
+.controls .left {
+	float: left;
+}
+
+.controls .right {
+	float: right;
+}

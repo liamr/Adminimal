@@ -1,0 +1,82 @@
+/* @override http://projects:8888/theme/stylesheets/admin/grid.css */
+
+.block .content .imglist {
+	overflow: hidden;
+	margin: 0;
+	padding: 5px;
+	padding-bottom: 10px;
+	}
+
+.block .content .imglist ul {
+	padding: 0;
+	margin: 0;
+	}
+
+.block .content .imglist li {
+	padding: 0;
+	margin: 0;
+	background: 0;
+	width: 100px;
+	height: 100px;
+	display: block;
+	float: left;
+	position: relative;
+	margin: 5px 5px 5px 5px;
+	border: 1px solid #ccc;
+	border: none;
+	padding: 1px;
+	box-shadow: 0 0 3px #ccc;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	}
+	
+.block .content .imglist li img {
+	position: absolute;
+	z-index: 1;
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	}
+
+.block .content .imglist li ul {
+	position: absolute;
+	z-index: 10;
+	background: #000;
+	width: 62px;
+	height: 58px;
+	left: 21px;
+	top: 21px;
+	display: none;
+	}
+	
+.block .content .imglist li:hover ul { display: block; }
+
+.block .content .imglist li ul li {
+	display: block;
+	width: 62px;
+	height: 29px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	}
+
+.block .content .imglist li ul li a {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	height: 29px;
+	line-height: 29px;
+	text-shadow: 0 0 2px #000;
+	outline: none;
+	text-decoration: none;
+	}
+	
+.block .content .imglist li ul li.view a:hover { background: #ccc }
+.block .content .imglist li ul li.delete a:hover { background: #ccc }
