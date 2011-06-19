@@ -1,15 +1,17 @@
 /* pagination */
 
 .pagination {
-	padding: 10px 0;
+	margin: 20px 0 15px 0;
+	padding: 0px;
+	float: right;
+	
 }
 
 .pagination a, .pagination span, .pagination em {
-  	background-color: #f4f4f4;
 	  color: #111;
 	  text-align: center;
 	  min-width: 15px;
-	  margin-right: 5px;
+	  margin-right: 0px;
 	  padding: 5px;
 	
 }
