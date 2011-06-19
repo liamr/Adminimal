@@ -23,16 +23,16 @@ border-radius: 5px;
 }
 
 #main .block .pad-tb {
-	padding: 10px 0;
+	padding: 15px 0;
 }
 
 #main .block .pad-sides {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #main .block .pad {
-	padding: 10px;
+	padding: 15px;
 }
 
 /* Header */
@@ -56,7 +56,7 @@ border-radius: 5px;
 .block header .block-title h3 {
 	font-size: 18px;
 	line-height: 50px;
-	padding-left: 10px;
+	padding-left: 15px;
 	margin: 0;
 }
 
@@ -78,22 +78,22 @@ border-radius: 5px;
 .block footer .block-title h3 {
 	font-size: 18px;
 	line-height: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin: 0;
 }
 
 .block footer .block-title p {
 	font-size: 12px;
 	line-height: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin: 0;
 }
 
 /* Controls */
 .controls {
-	padding: 10px;
+	padding: 5px 15px;
 }
 
 .controls .button{
@@ -103,8 +103,10 @@ border-radius: 5px;
 
 .controls .left {
 	float: left;
+	padding-right: 10px;
 }
 
 .controls .right {
 	float: right;
+	padding-left: 10px;
 }

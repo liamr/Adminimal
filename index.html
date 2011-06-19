@@ -130,7 +130,7 @@
                         <div class="clearfix" />
                     </header>
                       <div class="content pad-tb">
-                        <h2 class="push-sides">Table</h2>
+                        <h2 class="pad-sides">Table</h2>
                           <form action="#" class="form">
                               <table class="table">
                                 <tr>
@@ -151,20 +151,22 @@
                                   <td><input type="checkbox" class="checkbox" name="id" value="1" /></td><td>3</td><td>andre</td><td>Andre</td><td>The Giant</td><td class="last"><a href="#">show</a> | <a href="#">edit</a> | <a href="#">destroy</a></td>
                                 </tr>
                                 <tr class="even">
-                                  <td><input type="checkbox" class="checkbox" name="id" value="1" /></td><td>4</td><td>machoman</td><td>Macho Man</td><td>Randy Savage</td><td class="last"><a href="#">show</a> | <a href="#">edit</a> | <a href="#">destroy</a></td>
+                                  <td><input type="checkbox" class="checkbox" name="id" value="1" /></td><td>4</td><td>smail</td><td>John Smith</td><td>John Smith</td><td class="last"><a href="#">show</a> | <a href="#">edit</a> | <a href="#">destroy</a></td>
                                 </tr>
                               </table>
                               <div class="controls clearfix">
                                 <div class="actions clearfix">
-                                  <button class="button left" type="submit">
+                                    <button class="button left" type="submit">
                                     Delete
-                                  </button>
-                                  <button class="button right" type="submit">
-                                      Add
+                                    </button>
+                                    <button class="button right" type="submit">
+                                    Add
+                                    </button>
+                                    <button class="button right" type="submit">
+                                    Some
                                     </button>
                                 </div>
-                                <div class="clearfix"/>
-                                <div class="pagination clearfix">
+                                <div class="pagination">
                                     <span class="disabled prev_page">Prev</span><span class="current">1</span><a rel="next" href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a>  <a rel="next" class="next_page" href="#">Next</a>
                                 </div>
                               </div>
@@ -191,7 +193,7 @@
                         <div class="clearfix" />
                     </header>
                     <div class="content pad-tb">
-                        <h2>Form</h2>
+                        <h2 class="pad-sides">Form</h2>
                         <form action="#" method="get" class="form">
                             <!-- Col One -->
                             <div class="row ">
@@ -448,25 +450,59 @@
                 </div>
                 
             </div><!-- end of image blocks -->
+            
+            <div id="content" class="clearfix">
+				<div class="sixteen columns">
+					<h2>Submit News Article</h2>
+					<p class="error">Something went wronk.</p>
+				</div>
+
+				<div class="five columns">
+					<p>
+						<label for="title">Title <small>Must contain alpha-numeric characters.</small></label>
+						<input type="text" name="title" />
+					</p>
+				</div>
+
+				<div class="five columns">
+					<p>
+						<label for="title">Slug <small>Must contain alpha-numeric characters.</small></label>
+						<input type="text" name="title" />
+					</p>
+
+				</div>
+				<div class="six columns">
+					<p>
+						<label for="title">Category</label>
+						<select>
+							<option>Draft</option>
+							<option>Published</option>
+							<option>Private</option>
+						</select>
+					</p>
+				</div>
+
+				<div class="sixteen columns">
+					<p>
+						<label>Summary <small>Will be displayed in search engine results.</small></label>
+						<textarea></textarea>
+					</p>
+				</div>
+
+				<div class="sixteen columns">
+					<p>
+						<label>Article <small>Markdown Syntax.</small></label>
+						<textarea class="big"></textarea>
+					</p>
+					<p class="submit">
+						<input type="reset" value="Reset" />
+						<input type="submit" value="Post" />
+					</p>
+				</div>
+			</div>
         	
 		</div><!-- end of main -->
-		<div class="one-third column">
-			<h3>About Skeleton?</h3>	
-			<p>Skeleton is a small collection of well-organized CSS & JS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, tabs, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
-		</div>
-		<div class="one-third column">
-			<h3>Three Core Principles</h3>	
-			<p>Skeleton is built on three core principles:</p>
-			<ul class="square">
-				<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
-				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
-				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
-			</ul>
-		</div>
-		<div class="one-third column">
-			<h3>Docs &amp; Support</h3>	
-			<p>The easiest way to really get started with Skeleton is to check out the full docs and info at <a href="http://www.getskeleton.com">www.getskeleton.com.</a>. Skeleton is also open-source and has a <a href="https://github.com/dhgamache/skeleton">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to email me at <a href="mailto:hi@getskeleton.com">hi@getskeleton.com</a>.</p>
-		</div>
+		
 
 	</div><!-- container -->
 
