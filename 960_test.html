@@ -1,0 +1,152 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8" />
+	<title>Adminimal</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+	
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	
+	<!-- Adminimal-->
+	<link rel="stylesheet" href="stylesheets/admin/base.css">
+	
+	<style>
+	    /* Fixes width issues with form elements in the grid. */
+        .one.column select,.one.column input,.one.column textarea{width:30px}.one.column select{width:40px}.two.columns select,.two.columns input,.two.columns textarea{width:90px}.two.columns select{width:100px}.three.columns select,.three.columns input,.three.columns textarea{width:150px}.three.columns select{width:160px}.four.columns select,.four.columns input,.four.columns textarea{width:210px}.four.columns select{width:220px}.five.columns select,.five.columns input,.five.columns textarea{width:270px}.five.columns select{width:280px}.six.columns select,.six.columns input,.six.columns textarea{width:330px}.six.columns select{width:340px}.seven.columns select,.seven.columns input,.seven.columns textarea{width:390px}.seven.columns select{width:400px}.eight.columns select,.eight.columns input,.eight.columns textarea{width:450px}.eight.columns select{width:460px}.nine.columns select,.nine.columns input,.nine.columns textarea{width:510px}.nine.columns select{width:520px}.ten.columns select,.ten.columns input,.ten.columns textarea{width:570px}.ten.columns select{width:580px}.one.column1 select,.one.column1 input,.one.column1 textarea{width:630px}.one.column1 select{width:640px}.twelve.columns select,.twelve.columns input,.twelve.columns textarea{width:690px}.twelve.columns select{width:700px}.thirteen.columns select,.thirteen.columns input,.thirteen.columns textarea{width:750px}.thirteen.columns select{width:760px}.fourteen.columns select,.fourteen.columns input,.fourteen.columns textarea{width:810px}.fourteen.columns select{width:820px}.fifteen.columns select,.fifteen.columns input,.fifteen.columns textarea{width:870px}.fifteen.columns select{width:880px}.sixteen.columns select,.sixteen.columns input,.sixteen.columns textarea{width:930px}.sixteen.columns select{width:940px}
+
+        /* Make sure form elements don't break the box width */
+        .one.column > .box select,.one.column > .box input,.one.column > .box textarea{width:8px;}.two.columns > .box select,.two.columns > .box input,.two.columns > .box textarea{width:68px;}.three.columns > .box select,.three.columns > .box input,.three.columns > .box textarea{width:128px;}.four.columns > .box select,.four.columns > .box input,.four.columns > .box textarea{width:188px;}.five.columns > .box select,.five.columns > .box input,.five.columns > .box textarea{width:248px;}.six.columns > .box select,.six.columns > .box input,.six.columns > .box textarea{width:310px;}.seven.columns > .box select,.seven.columns > .box input,.seven.columns > .box textarea{width:368px;}.eight.columns > .box select,.eight.columns > .box input,.eight.columns > .box textarea{width:428px;}.nine.columns > .box select,.nine.columns > .box input,.nine.columns > .box textarea{width:488px;}.ten.columns > .box select,.ten.columns > .box input,.eleven.columns > .box textarea{width:548px;}.one.column1 > .box select,.one.column1 > .box input,.one.column1 > .box textarea{width:608px;}.twelve.columns > .box select,.twelve.columns > .box input,.twelve.columns > .box textarea{width:668px;}.thirteen.columns > .box select,.thirteen.columns > .box input,.thirteen.columns > .box textarea{width:728px;}.fourteen.columns > .box select,.fourteen.columns > .box input,.fourteen.columns > .box textarea{width:788px;}.fifteen.columns > .box select,.fifteen.columns > .box input,.fifteen.columns > .box textarea{width:848px;}.sixteen.columns > .box select,.sixteen.columns > .box input,.sixteen.columns > .box textarea{width:908px;}
+        
+	</style>
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+	
+</head>
+<body>
+
+
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+	
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">	
+		<div class="sixteen columns alpha omega">
+			<h1 class="remove-bottom" style="margin-top: 40px">Adminimal</h1>
+			<h5>Version 0.1</h5>
+			<hr />
+		</div>
+		<!-- Main -->
+		<div id="main">
+		    <!-- Text Blocks -->
+            <div id="content" class="clearfix">
+				<div class="sixteen columns">
+					<h2>Submit News Article</h2>
+					<p class="error">Something went wronk.</p>
+				</div>
+
+				<div class="five columns">
+					<p>
+						<label for="title">Title <small>Must contain alpha-numeric characters.</small></label>
+						<input type="text" name="title" />
+					</p>
+				</div>
+
+				<div class="five columns">
+					<p>
+						<label for="title">Slug <small>Must contain alpha-numeric characters.</small></label>
+						<input type="text" name="title" />
+					</p>
+
+				</div>
+				<div class="six columns">
+					<p>
+						<label for="title">Category</label>
+						<select>
+							<option>Draft</option>
+							<option>Published</option>
+							<option>Private</option>
+						</select>
+					</p>
+				</div>
+
+				<div class="sixteen columns">
+					<p>
+						<label>Summary <small>Will be displayed in search engine results.</small></label>
+						<textarea></textarea>
+					</p>
+				</div>
+
+				<div class="sixteen columns">
+					<p>
+						<label>Article <small>Markdown Syntax.</small></label>
+						<textarea class="big"></textarea>
+					</p>
+					<p class="submit">
+						<input type="reset" value="Reset" />
+						<input type="submit" value="Post" />
+					</p>
+				</div>
+			</div>
+        	
+		</div><!-- end of main -->
+		<div class="one-third column">
+			<h3>About Skeleton?</h3>	
+			<p>Skeleton is a small collection of well-organized CSS & JS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, tabs, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>
+		</div>
+		<div class="one-third column">
+			<h3>Three Core Principles</h3>	
+			<p>Skeleton is built on three core principles:</p>
+			<ul class="square">
+				<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>
+				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
+				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
+			</ul>
+		</div>
+		<div class="one-third column">
+			<h3>Docs &amp; Support</h3>	
+			<p>The easiest way to really get started with Skeleton is to check out the full docs and info at <a href="http://www.getskeleton.com">www.getskeleton.com.</a>. Skeleton is also open-source and has a <a href="https://github.com/dhgamache/skeleton">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to email me at <a href="mailto:hi@getskeleton.com">hi@getskeleton.com</a>.</p>
+		</div>
+
+	</div><!-- container -->
+
+		
+		
+		
+		
+	<!-- JS
+	================================================== -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+	<script>window.jQuery || document.write("<script src='javascripts/jquery-1.5.1.min.js'>\x3C/script>")</script>
+	<script src="javascripts/app.js"></script>
+	
+<!-- End Document
+================================================== -->
+</body>
+</html>
